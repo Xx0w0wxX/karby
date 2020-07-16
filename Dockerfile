@@ -41,9 +41,12 @@ RUN apt-get update && apt-get upgrade -y \
 # pipenv install
 RUN pip install pipenv
 
-COPY Pipfile ./
-COPY config.yaml ./
-COPY race.py ./
-COPY endpoints.py ./
+WORKDIR /work
+COPY Pipfile ./work
+COPY config.yaml ./work
+COPY race.py ./work
+COPY endpoints.py ./work
 
 RUN pipenv install --system --skip-lock
+
+VOLUME ["/work"]
