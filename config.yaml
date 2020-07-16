@@ -1,0 +1,37 @@
+track:
+  dart: True
+  syogai: False
+  shiba: False
+
+jyo:
+  sapporo: False
+  hakodate: False
+  hukushima: False
+  niigata: False
+  tokyo: False
+  nakayama: False
+  tyukyo: False
+  kyoto: False
+  hannshin: False
+  ogura: False
+
+baba:
+  ryou: False
+  yayaomo: False
+  omo: False
+  huryou: False
+
+jouken:
+  onlyhinba: False
+  onlychichinaikokusan: False
+  arabu: False
+  select: False
+  mix: False
+  tokushi: False
+  international: False
+
+barei:
+  ni: False
+  san: False
+  morethansan: False
+  morethanyon: False
