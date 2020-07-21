@@ -26,11 +26,6 @@ $ docker run --rm -v "$PWD:/work" unko python endpoints.py
 
 `out.txt` にレースのエンドポイントが保存されます
 
-- レース結果が欲しい人
+- レース結果が欲しい人とか
 
-```
-$ pipenv run python race.py
-```
-
-`race.py` の `__test()` をみてください
-
+`jupyter_example.ipynb` をみてくださいい
